@@ -1,12 +1,13 @@
 h1 {
     text-align: center;
+    color:white;
 }
 
 #cart {
     display: flex;
     justify-content: center;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
 }
 
 .column {
@@ -22,6 +23,7 @@ h1 {
 }
 
 #songs p {
+    color:white;
     font-size: 18px;
     height: 100px;
     font-weight: bold;
@@ -29,12 +31,14 @@ h1 {
 }
 
 #artists p {
+    color:white;
     font-size: 18px;
     height: 100px;
     margin: 20px;
 }
 
 #lengths p {
+    color:white;
     font-size: 16px;
     height: 100px;
     margin: 20px;
@@ -42,11 +46,15 @@ h1 {
 }
 
 #links a {
+    color:white;
     display: block;
     font-size: 18px;
     height: 100px;
     font-weight: bold;
     margin: 20px;
+}
+#new{
+    color:white;
 }
 
 #form {
