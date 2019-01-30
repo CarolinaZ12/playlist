@@ -31,7 +31,7 @@ songLinks.forEach(function(element5){
     $("#links").append("<a href="+element5+">"+"Listen to this bop!"+"</a");
     
 });
-}
+};
 
 function emptySongInfo(){
     $("#songs").empty();
@@ -39,6 +39,7 @@ function emptySongInfo(){
     $("#artists").empty();
     $("#lengths").empty();
     $("#links").empty();
+}
     
 function addSongInfo(){
     // Use jQuery to empty all of the remaining divs
@@ -63,4 +64,3 @@ $("#add").click(function() {
 });
 
 displayList();
-}
