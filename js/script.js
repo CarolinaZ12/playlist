@@ -17,7 +17,6 @@ function displayList(){
 });
 imagesLinks.forEach(function(element2){
     $("#images").append("<img src="+ element2+">");
-    
 });
 artists.forEach(function(element3){
     $("#artists").append("<li>"+element3+"</li>");
